@@ -11,7 +11,7 @@ RUN pip install pylint
 RUN pip install scikit-learn
 RUN pip install scipy
 RUN pip install seaborn
-RUN /usr/bin/python3 -m pip install -U jupyter --user　#vscode用
+#RUN /usr/bin/python3 -m pip install -U jupyter --user　#vscode用
 
 RUN apt-get update
 RUN apt-get install -y python3-pyqt4
