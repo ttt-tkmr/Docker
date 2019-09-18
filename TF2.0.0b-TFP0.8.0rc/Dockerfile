@@ -11,7 +11,7 @@ RUN pip install pylint
 RUN pip install scikit-learn
 RUN pip install scipy
 RUN pip install seaborn
-RUN /usr/bin/python3 -m pip install -U jupyter --user
+#RUN /usr/bin/python3 -m pip install -U jupyter --user
 RUN apt-get update
 RUN apt-get install -y python3-pyqt4
 RUN pip install ipython==7.6.1
