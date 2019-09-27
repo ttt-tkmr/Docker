@@ -1,5 +1,5 @@
 ## FROM : DockerFileの元になるイメージを指定
-FROM tensorflow/tensorflow:2.0.0rc-gpu-py3
+FROM tensorflow/tensorflow:2.0.0rc0-gpu-py3
 
 ## pip, apt-get
 RUN pip install --upgrade pip
